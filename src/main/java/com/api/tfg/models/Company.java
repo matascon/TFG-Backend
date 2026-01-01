@@ -1,7 +1,15 @@
 package com.api.tfg.models;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
+@Entity
+@Table(name = "companies")
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class Company {
 
     @Id
